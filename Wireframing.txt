@@ -1,0 +1,59 @@
+The Wireframing of the Command Line Program :
+
+                        Sign IN/ Log IN              
+                        
+                                |                  |
+                                V                  V
+                    
+                        (Log IN)                (Sign IN)(y)
+                        Do you have account?(y/n) 
+                        Username : ----         Username : ----
+                        Password : ----         New-Password : ----
+                                                Re-enter-Password : ----
+                                |                   |
+                                V                   V
+
+                            1)   Progress Bar
+                            2)   Quiz
+                            3)   Solutions Review
+                            4)   Reset
+                            5)   Quit
+
+                                |
+                                V 
+
+                            (Progress Bar)
+                            Username : ...
+                            Subjects Completed - (List...)
+                            Questions Completed - (No.qc)
+                            Percentage of Questions Left (qc/noq * 100)
+
+                                |
+                                V
+
+                            (Quiz)
+                            Subject:
+                            1. Data Structures & Algorithm
+                            Choose : ---
+
+                                |
+                                V
+                            
+                            (Quiz)
+                            Question ---
+                            Options -- a,b,c,d
+                            Answer -
+
+                            Correct - Correct -> Next Question
+                            Wrong - Solution -> Next Question
+
+                                |
+                                V
+                            
+                            (Solutions Review)
+                            Question --
+                            Solution --
+
+                        Reset - reset user struct(progress report)
+                        Quit - will quit the quiz
+                        It will be in Infinite Loop
